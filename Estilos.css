@@ -1,0 +1,93 @@
+/* 1. Estilo General */
+body { /* Estilo general para toda la página */
+    font-family: 'Segoe UI', Arial, sans-serif; /* Fuente moderna y legible, ¡muy pro! */
+    line-height: 1.6; /* Espaciado entre líneas para mejorar la lectura */
+    color: #e0e0e0;              /* Blanco suave para no cansar la vista */
+    background-color: #0f172a;   /* Un azul marino muy oscuro y elegante */
+}
+
+/* 2. El Contenedor */
+main {
+    max-width: 900px; /* Ancho máximo para que el contenido no se vea estirado en pantallas grandes */
+    margin: 30px auto;/* Centra el contenedor y le da un poco de espacio arriba y abajo */
+    padding: 40px; /* Espacio interno para que el contenido no toque los bordes */
+    background-color: #1e293b;   /* Un tono más claro que el fondo para dar relieve */
+    border-radius: 12px; /* Bordes redondeados para un look más suave y moderno */
+    box-shadow: 0 10px 30px rgba(8, 8, 8, 0.5); /* Sombra para dar profundidad*/
+}
+
+/* 3. Navegación: El menú  */
+header {
+    background-color: #0f172a;      /* Fondo oscuro para el encabezado */
+    border-bottom: 2px solid #3498db; /* Línea azul que divide el menú del contenido */
+    position: sticky;               /* Esto hace que el menú se quede fijo arriba al bajar */
+    top: 0; /* Asegura que el menú se quede en la parte superior */
+    z-index: 1000; /* Asegura que el menú esté por encima de otros elementos al hacer scroll */
+}
+
+nav ul {
+    margin: 0; /* Elimina el margen predeterminado de la lista */
+    padding: 20px; /* Espacio interno para que el menú no toque los bordes */
+    list-style: none;  /* Quita los puntos de la lista */
+    text-align: center; /* Centra los enlaces */
+}
+
+nav ul li { /* Estilo para cada elemento de la lista del menú */
+    display: inline-block; /* Pone los elementos uno al lado del otro */
+    margin: 0 15px; /* Espacio horizontal entre los enlaces */
+}
+
+nav ul li a {
+    color: #3498db;  /* Color azul claro para que se vea sobre lo oscuro */
+    text-decoration: none;   /* Quita el subrayado */
+    font-weight: bold; /* Hace que los enlaces se vean más importantes */
+    font-size: 16px; /* Tamaño de fuente adecuado para la navegación */
+    transition: 0.3s;               /* Suaviza el cambio de color */
+}
+
+nav ul li a:hover { /* Efecto al pasar el mouse sobre los enlaces */
+    color: #2ecc71;                 /* Cambia a verde al pasar el mouse,  */
+}
+
+/* 5. Secciones: Espaciado y bordes */
+section {
+    margin-bottom: 50px; /* Espacio entre secciones para que no se vean amontonadas */
+    border-bottom: 1px solid #334155; /* Gris azulado sutil en lugar de morado */
+    padding-bottom: 30px; /* Espacio debajo del borde para que el contenido no toque el borde */
+}
+
+/* Títulos de sección */
+h2 {
+    color: #3498db; /* Azul consistente con tus botones */
+    margin-bottom: 20px; /* Espacio debajo del título para separar del contenido */
+}
+/* 6. Botones: Estilo moderno */
+button {
+    background-color: #3498db; /* Azul vibrante */
+    color: #fff; /* Texto blanco para contraste */
+    border: none; /* Sin bordes */
+    padding: 12px 25px; /* Espacio interno para que el botón se vea bien */
+    border-radius: 5px; /* Bordes redondeados para un look más suave */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de fuente adecuado para botones */
+    transition: background-color 0.3s ease; /* Suaviza el cambio de color al hacer hover */
+}
+button:hover {
+    background-color: #2ecc71; /* Cambia a verde al pasar el mouse */
+}
+/* 7. Botones de contacto: Estilo especial */
+.contact-button {
+    background-color: #1f0339; /* Rojo vibrante para destacar */
+    color: #fff; /* Texto blanco para contraste */
+    border: none; /* Sin bordes */
+    padding: 12px 25px; /* Espacio interno para que el botón se vea bien */
+    border-radius: 5px; /* Bordes redondeados para un look más suave */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de fuente adecuado para botones */
+    transition: background-color 0.3s ease; /* Suaviza el cambio de color al hacer hover */
+
+}
+.contact-button:hover {
+    background-color: #e74c3c; /* Cambia a un rojo más claro al pasar el mouse */
+}
+
